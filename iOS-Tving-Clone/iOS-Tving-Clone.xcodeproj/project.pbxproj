@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D66015F72BE0D71200D9B14B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66015F62BE0D71200D9B14B /* AppDelegate.swift */; };
+		D66015F92BE0D71200D9B14B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66015F82BE0D71200D9B14B /* SceneDelegate.swift */; };
+		D66015FB2BE0D71200D9B14B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66015FA2BE0D71200D9B14B /* ViewController.swift */; };
+		D66015FE2BE0D71200D9B14B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D66015FD2BE0D71200D9B14B /* Base */; };
+		D66016002BE0D71400D9B14B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66015FF2BE0D71400D9B14B /* Assets.xcassets */; };
+		D66016032BE0D71400D9B14B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D66016022BE0D71400D9B14B /* Base */; };
+		D660160E2BE0D71400D9B14B /* iOS_Tving_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D660160D2BE0D71400D9B14B /* iOS_Tving_CloneTests.swift */; };
+		D66016182BE0D71400D9B14B /* iOS_Tving_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66016172BE0D71400D9B14B /* iOS_Tving_CloneUITests.swift */; };
+		D660161A2BE0D71400D9B14B /* iOS_Tving_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66016192BE0D71400D9B14B /* iOS_Tving_CloneUITestsLaunchTests.swift */; };
+		D66016272BE11BB200D9B14B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66016262BE11BB200D9B14B /* LoginViewController.swift */; };
+		D66016292BE11C0A00D9B14B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66016282BE11C0A00D9B14B /* WelcomeViewController.swift */; };
+		D660162D2BE11D1A00D9B14B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D660162C2BE11D1A00D9B14B /* SnapKit */; };
+		D660162F2BE11D1A00D9B14B /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D660162E2BE11D1A00D9B14B /* SnapKit-Dynamic */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D660160A2BE0D71400D9B14B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D66015EB2BE0D71200D9B14B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D66015F22BE0D71200D9B14B;
+			remoteInfo = "iOS-Tving-Clone";
+		};
+		D66016142BE0D71400D9B14B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D66015EB2BE0D71200D9B14B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D66015F22BE0D71200D9B14B;
+			remoteInfo = "iOS-Tving-Clone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D66015F32BE0D71200D9B14B /* iOS-Tving-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Tving-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66015F62BE0D71200D9B14B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D66015F82BE0D71200D9B14B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D66015FA2BE0D71200D9B14B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D66015FD2BE0D71200D9B14B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D66015FF2BE0D71400D9B14B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D66016022BE0D71400D9B14B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D66016042BE0D71400D9B14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D66016092BE0D71400D9B14B /* iOS-Tving-CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Tving-CloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D660160D2BE0D71400D9B14B /* iOS_Tving_CloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Tving_CloneTests.swift; sourceTree = "<group>"; };
+		D66016132BE0D71400D9B14B /* iOS-Tving-CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Tving-CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66016172BE0D71400D9B14B /* iOS_Tving_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Tving_CloneUITests.swift; sourceTree = "<group>"; };
+		D66016192BE0D71400D9B14B /* iOS_Tving_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Tving_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D66016262BE11BB200D9B14B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D66016282BE11C0A00D9B14B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D66015F02BE0D71200D9B14B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D660162D2BE11D1A00D9B14B /* SnapKit in Frameworks */,
+				D660162F2BE11D1A00D9B14B /* SnapKit-Dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66016062BE0D71400D9B14B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66016102BE0D71400D9B14B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D66015EA2BE0D71200D9B14B = {
+			isa = PBXGroup;
+			children = (
+				D66015F52BE0D71200D9B14B /* iOS-Tving-Clone */,
+				D660160C2BE0D71400D9B14B /* iOS-Tving-CloneTests */,
+				D66016162BE0D71400D9B14B /* iOS-Tving-CloneUITests */,
+				D66015F42BE0D71200D9B14B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D66015F42BE0D71200D9B14B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D66015F32BE0D71200D9B14B /* iOS-Tving-Clone.app */,
+				D66016092BE0D71400D9B14B /* iOS-Tving-CloneTests.xctest */,
+				D66016132BE0D71400D9B14B /* iOS-Tving-CloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D66015F52BE0D71200D9B14B /* iOS-Tving-Clone */ = {
+			isa = PBXGroup;
+			children = (
+				D66015F62BE0D71200D9B14B /* AppDelegate.swift */,
+				D66015F82BE0D71200D9B14B /* SceneDelegate.swift */,
+				D66015FA2BE0D71200D9B14B /* ViewController.swift */,
+				D66015FC2BE0D71200D9B14B /* Main.storyboard */,
+				D66015FF2BE0D71400D9B14B /* Assets.xcassets */,
+				D66016012BE0D71400D9B14B /* LaunchScreen.storyboard */,
+				D66016042BE0D71400D9B14B /* Info.plist */,
+				D66016262BE11BB200D9B14B /* LoginViewController.swift */,
+				D66016282BE11C0A00D9B14B /* WelcomeViewController.swift */,
+			);
+			path = "iOS-Tving-Clone";
+			sourceTree = "<group>";
+		};
+		D660160C2BE0D71400D9B14B /* iOS-Tving-CloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				D660160D2BE0D71400D9B14B /* iOS_Tving_CloneTests.swift */,
+			);
+			path = "iOS-Tving-CloneTests";
+			sourceTree = "<group>";
+		};
+		D66016162BE0D71400D9B14B /* iOS-Tving-CloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D66016172BE0D71400D9B14B /* iOS_Tving_CloneUITests.swift */,
+				D66016192BE0D71400D9B14B /* iOS_Tving_CloneUITestsLaunchTests.swift */,
+			);
+			path = "iOS-Tving-CloneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D66015F22BE0D71200D9B14B /* iOS-Tving-Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D660161D2BE0D71400D9B14B /* Build configuration list for PBXNativeTarget "iOS-Tving-Clone" */;
+			buildPhases = (
+				D66015EF2BE0D71200D9B14B /* Sources */,
+				D66015F02BE0D71200D9B14B /* Frameworks */,
+				D66015F12BE0D71200D9B14B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Tving-Clone";
+			packageProductDependencies = (
+				D660162C2BE11D1A00D9B14B /* SnapKit */,
+				D660162E2BE11D1A00D9B14B /* SnapKit-Dynamic */,
+			);
+			productName = "iOS-Tving-Clone";
+			productReference = D66015F32BE0D71200D9B14B /* iOS-Tving-Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D66016082BE0D71400D9B14B /* iOS-Tving-CloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66016202BE0D71400D9B14B /* Build configuration list for PBXNativeTarget "iOS-Tving-CloneTests" */;
+			buildPhases = (
+				D66016052BE0D71400D9B14B /* Sources */,
+				D66016062BE0D71400D9B14B /* Frameworks */,
+				D66016072BE0D71400D9B14B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D660160B2BE0D71400D9B14B /* PBXTargetDependency */,
+			);
+			name = "iOS-Tving-CloneTests";
+			productName = "iOS-Tving-CloneTests";
+			productReference = D66016092BE0D71400D9B14B /* iOS-Tving-CloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D66016122BE0D71400D9B14B /* iOS-Tving-CloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66016232BE0D71400D9B14B /* Build configuration list for PBXNativeTarget "iOS-Tving-CloneUITests" */;
+			buildPhases = (
+				D660160F2BE0D71400D9B14B /* Sources */,
+				D66016102BE0D71400D9B14B /* Frameworks */,
+				D66016112BE0D71400D9B14B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D66016152BE0D71400D9B14B /* PBXTargetDependency */,
+			);
+			name = "iOS-Tving-CloneUITests";
+			productName = "iOS-Tving-CloneUITests";
+			productReference = D66016132BE0D71400D9B14B /* iOS-Tving-CloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D66015EB2BE0D71200D9B14B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D66015F22BE0D71200D9B14B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D66016082BE0D71400D9B14B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D66015F22BE0D71200D9B14B;
+					};
+					D66016122BE0D71400D9B14B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D66015F22BE0D71200D9B14B;
+					};
+				};
+			};
+			buildConfigurationList = D66015EE2BE0D71200D9B14B /* Build configuration list for PBXProject "iOS-Tving-Clone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D66015EA2BE0D71200D9B14B;
+			packageReferences = (
+				D660162B2BE11D1A00D9B14B /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = D66015F42BE0D71200D9B14B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D66015F22BE0D71200D9B14B /* iOS-Tving-Clone */,
+				D66016082BE0D71400D9B14B /* iOS-Tving-CloneTests */,
+				D66016122BE0D71400D9B14B /* iOS-Tving-CloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D66015F12BE0D71200D9B14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66016002BE0D71400D9B14B /* Assets.xcassets in Resources */,
+				D66016032BE0D71400D9B14B /* Base in Resources */,
+				D66015FE2BE0D71200D9B14B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66016072BE0D71400D9B14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66016112BE0D71400D9B14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D66015EF2BE0D71200D9B14B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66016272BE11BB200D9B14B /* LoginViewController.swift in Sources */,
+				D66016292BE11C0A00D9B14B /* WelcomeViewController.swift in Sources */,
+				D66015FB2BE0D71200D9B14B /* ViewController.swift in Sources */,
+				D66015F72BE0D71200D9B14B /* AppDelegate.swift in Sources */,
+				D66015F92BE0D71200D9B14B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66016052BE0D71400D9B14B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D660160E2BE0D71400D9B14B /* iOS_Tving_CloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D660160F2BE0D71400D9B14B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66016182BE0D71400D9B14B /* iOS_Tving_CloneUITests.swift in Sources */,
+				D660161A2BE0D71400D9B14B /* iOS_Tving_CloneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D660160B2BE0D71400D9B14B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D66015F22BE0D71200D9B14B /* iOS-Tving-Clone */;
+			targetProxy = D660160A2BE0D71400D9B14B /* PBXContainerItemProxy */;
+		};
+		D66016152BE0D71400D9B14B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D66015F22BE0D71200D9B14B /* iOS-Tving-Clone */;
+			targetProxy = D66016142BE0D71400D9B14B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D66015FC2BE0D71200D9B14B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66015FD2BE0D71200D9B14B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D66016012BE0D71400D9B14B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66016022BE0D71400D9B14B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D660161B2BE0D71400D9B14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D660161C2BE0D71400D9B14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D660161E2BE0D71400D9B14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5WGKC822D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Tving-Clone/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "onegarden33-gmail.com.iOS-Tving-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D660161F2BE0D71400D9B14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5WGKC822D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Tving-Clone/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "onegarden33-gmail.com.iOS-Tving-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D66016212BE0D71400D9B14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5WGKC822D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "onegarden33-gmail.com.iOS-Tving-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Tving-Clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-Tving-Clone";
+			};
+			name = Debug;
+		};
+		D66016222BE0D71400D9B14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5WGKC822D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "onegarden33-gmail.com.iOS-Tving-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-Tving-Clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-Tving-Clone";
+			};
+			name = Release;
+		};
+		D66016242BE0D71400D9B14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5WGKC822D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "onegarden33-gmail.com.iOS-Tving-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-Tving-Clone";
+			};
+			name = Debug;
+		};
+		D66016252BE0D71400D9B14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5WGKC822D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "onegarden33-gmail.com.iOS-Tving-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-Tving-Clone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D66015EE2BE0D71200D9B14B /* Build configuration list for PBXProject "iOS-Tving-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D660161B2BE0D71400D9B14B /* Debug */,
+				D660161C2BE0D71400D9B14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D660161D2BE0D71400D9B14B /* Build configuration list for PBXNativeTarget "iOS-Tving-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D660161E2BE0D71400D9B14B /* Debug */,
+				D660161F2BE0D71400D9B14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66016202BE0D71400D9B14B /* Build configuration list for PBXNativeTarget "iOS-Tving-CloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66016212BE0D71400D9B14B /* Debug */,
+				D66016222BE0D71400D9B14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66016232BE0D71400D9B14B /* Build configuration list for PBXNativeTarget "iOS-Tving-CloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66016242BE0D71400D9B14B /* Debug */,
+				D66016252BE0D71400D9B14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D660162B2BE11D1A00D9B14B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D660162C2BE11D1A00D9B14B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D660162B2BE11D1A00D9B14B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D660162E2BE11D1A00D9B14B /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D660162B2BE11D1A00D9B14B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D66015EB2BE0D71200D9B14B /* Project object */;
+}
