@@ -20,6 +20,18 @@
 		D66016292BE11C0A00D9B14B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66016282BE11C0A00D9B14B /* WelcomeViewController.swift */; };
 		D660162D2BE11D1A00D9B14B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D660162C2BE11D1A00D9B14B /* SnapKit */; };
 		D660162F2BE11D1A00D9B14B /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D660162E2BE11D1A00D9B14B /* SnapKit-Dynamic */; };
+		D69908452BEE5E8E00A7EBC3 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D69908442BEE5E8E00A7EBC3 /* Then */; };
+		D69908512BEE5EDC00A7EBC3 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D69908502BEE5EDC00A7EBC3 /* Moya */; };
+		D69908532BEE658F00A7EBC3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69908522BEE658F00A7EBC3 /* Config.swift */; };
+		D69908552BEE659B00A7EBC3 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69908542BEE659B00A7EBC3 /* NetworkResult.swift */; };
+		D69908572BEE65A600A7EBC3 /* MoyaLoggingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69908562BEE65A600A7EBC3 /* MoyaLoggingPlugin.swift */; };
+		D69908592BEE65B600A7EBC3 /* SignUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69908582BEE65B600A7EBC3 /* SignUpRequestModel.swift */; };
+		D699085B2BEE65C100A7EBC3 /* SignUpResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D699085A2BEE65C100A7EBC3 /* SignUpResponseModel.swift */; };
+		D699085D2BEE65D000A7EBC3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D699085C2BEE65D000A7EBC3 /* SignUpViewController.swift */; };
+		D699085F2BEE65DE00A7EBC3 /* UserTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D699085E2BEE65DE00A7EBC3 /* UserTargetType.swift */; };
+		D69908612BEE65EE00A7EBC3 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69908602BEE65EE00A7EBC3 /* UserService.swift */; };
+		D69908632BEE660900A7EBC3 /* CheckUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69908622BEE660900A7EBC3 /* CheckUserInfoViewController.swift */; };
+		D69908652BEE661500A7EBC3 /* UserInfoResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69908642BEE661500A7EBC3 /* UserInfoResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +67,16 @@
 		D66016192BE0D71400D9B14B /* iOS_Tving_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Tving_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D66016262BE11BB200D9B14B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D66016282BE11C0A00D9B14B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		D69908522BEE658F00A7EBC3 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		D69908542BEE659B00A7EBC3 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		D69908562BEE65A600A7EBC3 /* MoyaLoggingPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLoggingPlugin.swift; sourceTree = "<group>"; };
+		D69908582BEE65B600A7EBC3 /* SignUpRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequestModel.swift; sourceTree = "<group>"; };
+		D699085A2BEE65C100A7EBC3 /* SignUpResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponseModel.swift; sourceTree = "<group>"; };
+		D699085C2BEE65D000A7EBC3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D699085E2BEE65DE00A7EBC3 /* UserTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTargetType.swift; sourceTree = "<group>"; };
+		D69908602BEE65EE00A7EBC3 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		D69908622BEE660900A7EBC3 /* CheckUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUserInfoViewController.swift; sourceTree = "<group>"; };
+		D69908642BEE661500A7EBC3 /* UserInfoResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +85,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D660162D2BE11D1A00D9B14B /* SnapKit in Frameworks */,
+				D69908452BEE5E8E00A7EBC3 /* Then in Frameworks */,
+				D69908512BEE5EDC00A7EBC3 /* Moya in Frameworks */,
 				D660162F2BE11D1A00D9B14B /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,6 +140,16 @@
 				D66016042BE0D71400D9B14B /* Info.plist */,
 				D66016262BE11BB200D9B14B /* LoginViewController.swift */,
 				D66016282BE11C0A00D9B14B /* WelcomeViewController.swift */,
+				D69908522BEE658F00A7EBC3 /* Config.swift */,
+				D69908542BEE659B00A7EBC3 /* NetworkResult.swift */,
+				D69908562BEE65A600A7EBC3 /* MoyaLoggingPlugin.swift */,
+				D69908582BEE65B600A7EBC3 /* SignUpRequestModel.swift */,
+				D699085A2BEE65C100A7EBC3 /* SignUpResponseModel.swift */,
+				D699085C2BEE65D000A7EBC3 /* SignUpViewController.swift */,
+				D699085E2BEE65DE00A7EBC3 /* UserTargetType.swift */,
+				D69908602BEE65EE00A7EBC3 /* UserService.swift */,
+				D69908622BEE660900A7EBC3 /* CheckUserInfoViewController.swift */,
+				D69908642BEE661500A7EBC3 /* UserInfoResponseModel.swift */,
 			);
 			path = "iOS-Tving-Clone";
 			sourceTree = "<group>";
@@ -156,6 +190,8 @@
 			packageProductDependencies = (
 				D660162C2BE11D1A00D9B14B /* SnapKit */,
 				D660162E2BE11D1A00D9B14B /* SnapKit-Dynamic */,
+				D69908442BEE5E8E00A7EBC3 /* Then */,
+				D69908502BEE5EDC00A7EBC3 /* Moya */,
 			);
 			productName = "iOS-Tving-Clone";
 			productReference = D66015F32BE0D71200D9B14B /* iOS-Tving-Clone.app */;
@@ -231,6 +267,8 @@
 			mainGroup = D66015EA2BE0D71200D9B14B;
 			packageReferences = (
 				D660162B2BE11D1A00D9B14B /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D69908432BEE5E8E00A7EBC3 /* XCRemoteSwiftPackageReference "Then" */,
+				D699084F2BEE5EDC00A7EBC3 /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			productRefGroup = D66015F42BE0D71200D9B14B /* Products */;
 			projectDirPath = "";
@@ -275,11 +313,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D699085D2BEE65D000A7EBC3 /* SignUpViewController.swift in Sources */,
 				D66016272BE11BB200D9B14B /* LoginViewController.swift in Sources */,
 				D66016292BE11C0A00D9B14B /* WelcomeViewController.swift in Sources */,
+				D69908652BEE661500A7EBC3 /* UserInfoResponseModel.swift in Sources */,
 				D66015FB2BE0D71200D9B14B /* ViewController.swift in Sources */,
 				D66015F72BE0D71200D9B14B /* AppDelegate.swift in Sources */,
 				D66015F92BE0D71200D9B14B /* SceneDelegate.swift in Sources */,
+				D69908612BEE65EE00A7EBC3 /* UserService.swift in Sources */,
+				D69908532BEE658F00A7EBC3 /* Config.swift in Sources */,
+				D699085F2BEE65DE00A7EBC3 /* UserTargetType.swift in Sources */,
+				D69908572BEE65A600A7EBC3 /* MoyaLoggingPlugin.swift in Sources */,
+				D69908632BEE660900A7EBC3 /* CheckUserInfoViewController.swift in Sources */,
+				D69908552BEE659B00A7EBC3 /* NetworkResult.swift in Sources */,
+				D699085B2BEE65C100A7EBC3 /* SignUpResponseModel.swift in Sources */,
+				D69908592BEE65B600A7EBC3 /* SignUpRequestModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +507,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = " http://www.kobis.or.kr/kobisopenapi/webservice/rest/movie/searchMovieList.json";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G5WGKC822D;
@@ -487,6 +536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = " http://www.kobis.or.kr/kobisopenapi/webservice/rest/movie/searchMovieList.json";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G5WGKC822D;
@@ -636,6 +686,22 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		D69908432BEE5E8E00A7EBC3 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		D699084F2BEE5EDC00A7EBC3 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -648,6 +714,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D660162B2BE11D1A00D9B14B /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = "SnapKit-Dynamic";
+		};
+		D69908442BEE5E8E00A7EBC3 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D69908432BEE5E8E00A7EBC3 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		D69908502BEE5EDC00A7EBC3 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D699084F2BEE5EDC00A7EBC3 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
